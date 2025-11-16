@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "start:local": "node ./index-local.js",
+    "dev": "nodemon ./index.js",
+    "dev:local": "nodemon ./index-local.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "express": "^5.1.0",
+    "http": "^0.0.1-security",
+    "mongodb": "^7.0.0",
+    "mongoose": "^8.19.3",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
